@@ -27,7 +27,7 @@ document.addEventListener(
         if (itemClicked.dataset.type === "celebrity") {
             for (const celeb of celebrities) {
                 if (celeb.id === parseInt(itemClicked.dataset.id)) {
-                    window.alert(`${celeb.name} is a ${celeb.sport} star `)
+                    window.alert(`${celeb.name} is a ${celeb.sport} star`)
                 }
             }
         }
